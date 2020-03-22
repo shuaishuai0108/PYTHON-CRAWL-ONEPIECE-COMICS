@@ -24,3 +24,5 @@ self.receivers = ['123456@qq.com']  # 接收邮件，可设置为你的kindle邮
 
 self.path = './海贼王' 
 
+----------
+个人邮箱：handsomemars@outlook.com
