@@ -99,11 +99,6 @@ class hzw():
             # 提取图片地址
             rt = r'\d+/\d+/\d+\.jpg'
             html_url = re.findall(rt, req.text)
-            # print(html_url[0])
-            # from lxml import etree
-            # html = etree.HTML(req.text)
-            # html_url = html.xpath('//img[@id="mhpic"]/@src')
-            # print(html_url[0])
             try:
                 pic = "http://p1.manhuapan.com/%s" % html_url[0]
             except:
